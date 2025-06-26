@@ -14,8 +14,7 @@ This is a simple Obsidian plugin that displays the total number of Markdown note
 
 1.  **Download the latest release**:
     (Once the plugin is on GitHub, you would provide a link to the releases page here.)
-    For now, you have the plugin files in your vault at:
-    `/Users/yamakaz/Library/Mobile Documents/iCloud~md~obsidian/Documents/Knowledgebase_V3/.obsidian/plugins/obsidian-note-counter`
+    For now, you can find the plugin files in your local Obsidian vault's plugin directory.
 
 2.  **Place the plugin files in your vault**:
     Ensure the `main.js`, `manifest.json`, and `styles.css` (if any) files are directly inside the `obsidian-note-counter` folder within your vault's `.obsidian/plugins/` directory.
@@ -42,8 +41,9 @@ This plugin was developed using TypeScript and Esbuild.
 
 1.  Clone this repository (or navigate to your plugin directory):
     ```bash
-    cd '/Users/yamakaz/Library/Mobile Documents/iCloud~md~obsidian/Documents/Knowledgebase_V3/.obsidian/plugins/obsidian-note-counter'
+    cd <your-plugin-directory>
     ```
+    (e.g., `cd your-vault/.obsidian/plugins/obsidian-note-counter`)
 2.  Install dependencies:
     ```bash
     npm install
