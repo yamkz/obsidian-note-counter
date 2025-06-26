@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-note-counter",
+    "name": "Obsidian Note Counter",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Displays the total number of notes in the graph view.",
+    "author": "Your Name",
+    "authorUrl": "https://your-website.com",
+    "isDesktopOnly": true
+}
